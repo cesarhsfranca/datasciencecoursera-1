@@ -26,12 +26,19 @@ In this project, the following operatins are performed:
 3. Extracts only the measurements on the mean and standard deviation for each measurement.
 4. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+In order to run the project, please refer to the How-To section.
+ 
 ## Files
 
 * 'README.md'
 * 'codebook.md': Describes the variables, the data, and transformations performed to clean up the data.
 * 'run_analysis.R': Performs the analysis.
 * 'prep.R': Downloads the data set and extract it in the data subfolder.
+
+## How To
+1. Set an arbitrary working directory.
+2. Run the prep.R file.
+3. Run the run_analysis.R file.
 
 ## License
 The use of this project must be in accordance with the Coursera Honor Code: https://learner.coursera.help/hc/en-us/articles/209818863
