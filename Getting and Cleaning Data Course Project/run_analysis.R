@@ -100,7 +100,9 @@ datasetMeanSTD <- dataset[, grep("std|mean|activity|subject", names(dataset), ig
 # Creates a tidy data set with the average of each variable for each 
 # activity and each subject.
 tidyMeanValuesByActivitySubject <- datasetMeanSTD %>% 
-                                    group_by(subject, activity) %>% 
+                                    group_by(activity, subject) %>% 
                                     summarise_each(funs(mean))
+
+write.table(tidyMeanValuesByActivitySubject, file = "./data/dataset.txt", row.names = F)
 
 select(filter(tidyMeanValuesByActivitySubject, subject %in% c(1,2)), activity:tBodyAcc.mean.Z)
