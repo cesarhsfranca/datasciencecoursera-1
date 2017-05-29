@@ -1,11 +1,9 @@
 # Human Activity Recognition Analysis
 # Getting and Cleaning Data Course Project
-# Version 1.0
 # 
 # Date:   May 2017
 # Author: Hadi Rahmat-Khah
-#         Kettering University
-#         Flint, MI
+# Ver:    1.0
 
 # Loads the necessary libraries
 library(stringr)
