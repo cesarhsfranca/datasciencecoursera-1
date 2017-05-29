@@ -2,7 +2,7 @@
 ## Getting and Cleaning Data Course Project
 
 Author: Hadi Rahmat-Khah  
-Date:   May 2017
+Date:   May 2017  
 Ver:    1.0
 
 ## Description
